@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "XKeys-dmxc3-Plugin": {
+      "commandName": "Project"
+    },
+    "Profil \"1\"": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Program Files (x86)\\DMXControl3\\Beta 6 PreRelease\\Kernel\\Lumos.exe"
+    }
+  }
+}
