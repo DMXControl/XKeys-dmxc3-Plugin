@@ -72,6 +72,7 @@ pipeline {
 				bat "xcopy \"$WORKSPACE\\XKeys-dmxc3-Plugin\\bin\\Release\\net6.0\\XKeys-dmxc3-Plugin.pdb\" \"$WORKSPACE\\output\\\" /F /R /Y /I"
 				bat "xcopy \"$WORKSPACE\\XKeys-dmxc3-Plugin\\bin\\Release\\net6.0\\XKeys-dmxc3-Plugin.deps.json\" \"$WORKSPACE\\output\\\" /F /R /Y /I"
 				bat "xcopy \"$WORKSPACE\\XKeys-dmxc3-Plugin\\bin\\Release\\net6.0\\XKeysSharp.dll\" \"$WORKSPACE\\output\\dependencies\\\" /F /R /Y /I"
+				bat "xcopy \"$WORKSPACE\\XKeys-dmxc3-Plugin\\bin\\Release\\net6.0\\PIEHidNetCore.dll\" \"$WORKSPACE\\output\\dependencies\\\" /F /R /Y /I"
 				bat "xcopy \"$WORKSPACE\\XKeys-dmxc3-Plugin\\bin\\Release\\net6.0\\System.*\" \"$WORKSPACE\\output\\dependencies\\\" /F /R /Y /I"
 				bat "xcopy \"$WORKSPACE\\XKeys-dmxc3-Plugin\\bin\\Release\\net6.0\\Microsoft.*\" \"$WORKSPACE\\output\\dependencies\\\" /F /R /Y /I"
 				
