@@ -13,7 +13,7 @@
 		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
 	</PropertyGroup>
 	<ItemGroup>
-	  <PackageReference Include="XKeysSharp" Version="1.0.3" />
+	  <PackageReference Include="XKeysSharp" Version="1.0.5" />
 	</ItemGroup>
 	<ItemGroup>
 		<Reference Include="Lumos">
